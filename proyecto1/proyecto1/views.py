@@ -14,6 +14,10 @@ def index(request):
     return render(request, "html_startup.html")
 
 #__________________________________________________________________________________________
+def formulario(request):
+    return render(request, "formu.html")
+
+#__________________________________________________________________________________________
 def rutcovi(request, rut):
     print("Bienvenido al programa de control de COVID")
     permisos = ['18837903-K', '18:30', '18836902-K', '19:15','20857683-6', '4:20']

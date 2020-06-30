@@ -15,10 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from proyecto1.views import rutcovi, index
+from proyecto1.views import rutcovi, index, formulario
 
 urlpatterns = [
     path('', index),
     path('admin/', admin.site.urls),
-    path('covi/<str:rut>', rutcovi)
+    path('covi/<str:rut>', rutcovi),
+    path('formulario/', formulario)
 ]
