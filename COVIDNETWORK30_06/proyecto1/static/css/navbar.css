@@ -1,0 +1,17 @@
+.nav1{
+    display: inline-block;
+    background: darkred;
+    color: rgb(14, 12, 12);
+    text-decoration: none;
+    font-size: medium;
+    padding-left: 102px;
+    padding-right: 105px;
+}
+.nav1:hover{
+    background-color: rgb(26, 60, 87);
+    color: floralwhite;
+}
+.nav{
+    background: green;
+    padding: 10px 10px;
+}
