@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='es', style='height: 100%;'>
+<head>
+    <title>Estado Persona COVID-19</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}" >
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+</head>
+<body bgcolor="#e8f5e9">
+	 <div class="container">
+     	<div class="row">
+     		<div class="col s12">
+     			<h1 style="text-align: center;">Este es el formulario Inicial para COVID NETWORK:</h1>
+			 </div>
+     	</div>  
+     </div>
+</body>
+</html>
+
+<div class="row">
+    <div class="input-field col s6">
+        <input id="rut" type="text" class="validate">
+        <label for="rut">Ingresa tu rut</label>
+    </div>
+</div>
+
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Primer nombre</label>
+          </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Apellido paterno</label>
+        </div>
+
+
+
+<label> Algun conviviente tuyo ha tenido covid?</label>
+<select class="browser-default">
+    <option value="" disabled selected>Respuesta</option>
+    <option value="1">Sí</option>
+    <option value="2">No</option>
+</select>
+
+                  
