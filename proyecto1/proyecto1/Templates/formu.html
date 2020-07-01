@@ -8,7 +8,7 @@
     <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
 </head>
-<body bgcolor="81c784">
+<body bgcolor="#e8f5e9">
 	 <div class="container">
      	<div class="row">
      		<div class="col s12">
@@ -18,3 +18,33 @@
      </div>
 </body>
 </html>
+
+<div class="row">
+    <div class="input-field col s6">
+        <input id="rut" type="text" class="validate">
+        <label for="rut">Ingresa tu rut</label>
+    </div>
+</div>
+
+<div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+            <input id="first_name" type="text" class="validate">
+            <label for="first_name">Primer nombre</label>
+          </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Apellido paterno</label>
+        </div>
+
+
+
+<label> Algun conviviente tuyo ha tenido covid?</label>
+<select class="browser-default">
+    <option value="" disabled selected>Respuesta</option>
+    <option value="1">Sí</option>
+    <option value="2">No</option>
+</select>
+
+                  
