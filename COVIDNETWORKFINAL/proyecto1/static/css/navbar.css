@@ -1,0 +1,11 @@
+.nav1{
+    background: darkred;
+    color: rgb(14, 12, 12);
+    text-decoration: none;
+    font-size: medium;
+    display: table-cell;
+}
+.nav1:hover{
+    background-color: rgb(26, 60, 87);
+    color: floralwhite;
+}

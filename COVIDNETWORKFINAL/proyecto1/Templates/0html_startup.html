@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='es', style='height: 100%;'>
+<head>
+    <title>Revisador CoVid-19</title>
+    {% load static %}
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{% static 'css/materialize.min.css' %}" >
+    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>
+	<script type="text/javascript" src="{% static 'js/materialize.min.js' %}"></script>
+	<link rel="stylesheet" href="{% static 'css/navbar.css' %}">
+</head>
+<body bgcolor="81c784">
+	 <div class="container">
+     	<div class="row">
+     		<div class="col s12">
+     			<h1 style="text-align: center;">Bienvenidos a</h1>
+     		</div>
+     		<div class="col s12 center-align">
+     			<img src="{% static 'img/logo1.png' %}">
+			 </div>
+			 <div>
+				<h5 style="text-align: center;">La primera pagina informativa sobre el COVID-19, especialmente hecha para Chile</h5>
+			 </div>
+     		<div>
+				<nav>
+					<div class="nav-wrapper">
+					  <a href="#" class="brand-logo right">COVIDNETWORK2.0</a>
+					  <ul id="nav-mobile" class="left hide-on-med-and-down">
+						<li><a href=formulario>Formulario de ingreso</a></li>
+						<li><a href=informacion>Informacion adicional</a></li>
+						<li><a href="https://comisariavirtual.cl/permisos_individuales.html">Permisos temporales</a></li>
+					  </ul>
+					</div>
+				  </nav>
+     		</div>
+     	</div>  
+     </div>
+</body>
+</html>
